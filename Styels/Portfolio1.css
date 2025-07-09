@@ -54,7 +54,7 @@ nav li a
 {
     background-color:orangered; 
     color:#FFFFFF;
-    width: 110px;
+    width: 150px;
     height: 55px;
     padding: 10px;
     
@@ -69,25 +69,30 @@ nav li a
 .banner{
     display: flex;
     justify-content: space-between;
-    margin: 0 38px 0 230px;
+    margin: 0 38px 0 190px;
 
 }
 .banner-content{
-    max-width: 585px;
+    max-width: 580px;
+    margin-top:130px;
+    
     
 }
 .banner-greetings{
         font-size:45px;
         font-weight: 600px;
-        
+        margin-bottom: 0px;
 }
 .banner-title{
         font-size: 85px;
         font-weight: bold;
+        margin-top: 0px;
+        margin-bottom: 0px;
 }
 .banner-description{
     font-size: 18px;
     color: #757575;
+    margin-top: 10px;
 
 
 }
@@ -98,15 +103,19 @@ nav li a
 main{
     max-width: 1140px;
     margin: 0 auto;
-
+}
+main section{
+    margin-top:130px;
 }
 /*About section style*/
 .about{
     background-color: #FFF8F3;
-    margin-top: 130px;
+    
     border-radius: 10px;
     
-    padding: 131px 156px;
+    padding: 100px 156px 131px 156px;
+    
+    
     
 }
 .section-title{
@@ -126,8 +135,100 @@ main{
 }
 .item-title{
     color: #757575;
+    margin-bottom: 0px;
 }
 .item-description{
     font-weight: bold;
+    margin-top: 0px;
    
 }
+/*"What I Do" section Styles*/
+
+.skill-slot{
+    display: flex;
+    gap:24px;   
+}
+.skill-item{
+    border-radius:5px;
+    padding:33px;
+    box-shadow:0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.skill-description{
+    font-size: 16px;
+    font-weight: 300;
+}
+/*Resume section style*/
+.column{
+    display: flex;
+    gap: 24px;
+}
+.column-title{
+    font-size:30px;
+    font-weight:bold;
+    margin-bottom: 0;
+}
+.experience{
+    
+    padding-right:47px;
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.experience-subtitle{
+    font-size: 20px;
+    font-weight:500;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.experience-description{
+    font-size:16px;
+    font-weight: 300;
+    margin-top:1;
+}
+/*footer styles*/
+.footer-columns{
+    display: flex;
+    gap: 117px;
+    padding:230px;
+    padding-top: 30;
+
+}
+.footer-column{
+    max-width: 50%;
+}
+.footer-column-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.footer-column-description{
+    font-size: 16px;
+    font-weight: 300;
+}
+/*form styling*/
+input[type="text"], input[type="email"]
+{
+    height:50px;
+    width: 464px;
+    border-radius:5px;
+    font-size:16px;
+    font-weight: 300;
+    
+
+    
+}
+textarea{
+    width:464px;
+    height:180px;
+    font-size:16px;
+    font-weight: 300;
+}
+
+
+
+
