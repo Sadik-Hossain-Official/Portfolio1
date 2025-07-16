@@ -230,6 +230,24 @@ textarea{
     display: none;
 }
 @media screen and (max-width: 576px){
+    nav{
+        margin:50px auto;
+    }
+   nav ul{
+    display: flex;
+    align-items: center;
+    padding:13px;
+   }
+   nav li{
+    margin-right:15px;
+   }
+   nav .button{
+    max-width:72%;
+    max-height:30%;
+   }
+   .banner{
+    margin:0px;
+   }
     .about{
         padding-left:0px;
         padding-right:0px;
