@@ -230,6 +230,11 @@ textarea{
     display: none;
 }
 @media screen and (max-width: 576px){
+     .header{
+        background-image:url("../images/header_bg.png");
+        background-repeat:no-repeat;
+        background-position:bottom right;
+     }
     nav{
         margin:50px auto;
     }
@@ -247,18 +252,31 @@ textarea{
    }
    .banner{
     margin:0px;
+    max-width:100%;
+    
    }
+   .banner-content{
+    margin-top:0px;
+   }
+   .banner-greetings{
+    padding-top:20px;
+   }
+   .banner-photo{
+    max-width:100%;
+   }
+   main section{
+    margin-top:30px;
+}
+   
     .about{
-        padding-left:0px;
-        padding-right:0px;
-        padding-bottom:90px;
-        text-align: justify;
+        padding:40px 20px;
+        text-align:center;
     }
     .about-items{
         display:grid;
         grid-template-columns:repeat(2,1fr);
     }
-    .skill-slot, .column, .footer-columns{
+    .banner, .skill-slot, .column, .footer-columns{
         flex-direction: column;
     }
     .footer-columns{
