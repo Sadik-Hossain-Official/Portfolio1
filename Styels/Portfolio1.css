@@ -238,16 +238,15 @@ textarea{
         gap:0px;
     }
     .footer-column{
-        width:100%;
+        max-width:100%;
     }
     .footer-column-description{
         text-align: justify;
-        
     }
     input[type="text"], input[type="email"], textarea{
-        width: 200%;
+        width:95%;
     }
-    
+
 
 }
 
