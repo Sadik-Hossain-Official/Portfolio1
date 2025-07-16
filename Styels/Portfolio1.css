@@ -230,6 +230,16 @@ textarea{
     display: none;
 }
 @media screen and (max-width: 576px){
+    .about{
+        padding-left:0px;
+        padding-right:0px;
+        padding-bottom:90px;
+        text-align: justify;
+    }
+    .about-items{
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+    }
     .skill-slot, .column, .footer-columns{
         flex-direction: column;
     }
