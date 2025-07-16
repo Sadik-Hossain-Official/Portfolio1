@@ -226,9 +226,7 @@ textarea{
     font-weight: 300;
 }
 /*media query styles*/
-.hide{
-    display: none;
-}
+
 @media screen and (max-width: 576px){
      .header{
         background-image:url("../images/header_bg.png");
@@ -295,5 +293,6 @@ textarea{
 
 
 }
+
 
 
