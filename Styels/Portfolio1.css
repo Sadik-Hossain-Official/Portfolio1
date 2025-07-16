@@ -218,9 +218,6 @@ input[type="text"], input[type="email"]
     border-radius:5px;
     font-size:16px;
     font-weight: 300;
-    
-
-    
 }
 textarea{
     width:464px;
@@ -228,7 +225,30 @@ textarea{
     font-size:16px;
     font-weight: 300;
 }
+/*media query styles*/
+.hide{
+    display: none;
+}
+@media screen and (max-width: 576px){
+    .skill-slot, .column, .footer-columns{
+        flex-direction: column;
+    }
+    .footer-columns{
+        padding:20px;
+        gap:0px;
+    }
+    .footer-column{
+        width:100%;
+    }
+    .footer-column-description{
+        text-align: justify;
+        
+    }
+    input[type="text"], input[type="email"], textarea{
+        width: 200%;
+    }
+    
 
-
+}
 
 
